@@ -13,7 +13,7 @@
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Start Medication" />
+            android:title="Dynamic Layout" />
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
