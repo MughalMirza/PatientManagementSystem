@@ -20,5 +20,7 @@ public class clinicalMenuFragement extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
 
         myView = inflater.inflate(R.layout.clinical_menu,container,false);
-        return myView;    }
+        return myView;
+
+    }
 }

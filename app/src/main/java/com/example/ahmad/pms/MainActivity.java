@@ -84,21 +84,21 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
         android.app.FragmentManager fragmentManager = getFragmentManager();
 
-        if (id == R.id.select_patients) {
+        if (id == R.id.recycler_view) {
 
             fragmentManager.beginTransaction()
                     .replace(R.id.content_frame, new allPatientFragement())
                     .commit();
 
             // Handle the camera action
-        } else if (id == R.id.clinical_menu) {
+        } else if (id == R.id.card_view) {
 
             fragmentManager.beginTransaction()
                     .replace(R.id.content_frame, new clinicalMenuFragement())
                     .commit();
 
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.dynamic_layout) {
 
             fragmentManager.beginTransaction()
                     .replace(R.id.content_frame, new xmlFragement())
